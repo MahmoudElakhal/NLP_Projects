@@ -8,7 +8,7 @@ import torch
 DATA_PATH = "../Dataset/train.csv"
 MODEL_PATH = "D:/Embedded_New/AI Data/NLP/NLP_Course/Projects/NLP_Projects/Week2/models/best_lstm_model.pth"
 METRICS_PATH = "D:/Embedded_New/AI Data/NLP/NLP_Course/Projects/NLP_Projects//Week2/results/metrics.csv"
-VOCAB_PATH = "D:/Embedded_New/AI Data/NLP/NLP_Course/Projects/NLP_Projects/Week2/models/vocab.pkl"
+VOCAB_PATH = "D:/Embedded_New/AI Data/NLP/NLP_Course/Projects/NLP_Projects/Week3/models/vocab.pkl"
 
 # ============================================================
 # LABELS
