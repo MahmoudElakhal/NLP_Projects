@@ -2,7 +2,8 @@ from pathlib import Path
 import torch
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_DIR = BASE_DIR / "models"
+PROJECT_DIR = BASE_DIR.parent
+MODEL_DIR = PROJECT_DIR / "models"
 
 MODEL_PATH = MODEL_DIR / "best_lstm_model.pth"
 VOCAB_PATH = MODEL_DIR / "vocab.pkl"
@@ -64,3 +65,11 @@ DEVICE = torch.device(
 )
 
 print("Device:", DEVICE)
+
+
+print("BASE_DIR:", BASE_DIR)
+print("MODEL_DIR:", MODEL_DIR)
+print("MODEL_DIR exists:", MODEL_DIR.exists())
+print("VOCAB_PATH:", VOCAB_PATH)
+print("VOCAB exists:", VOCAB_PATH.exists())
+print("MODEL exists:", MODEL_PATH.exists())
